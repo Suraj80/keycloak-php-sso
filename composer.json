@@ -1,0 +1,23 @@
+{
+  "name": "keycloak-php-sso/demo",
+  "description": "Centralized authentication system using Keycloak for multiple SaaS applications with SSO",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Suraj Jangavali",
+      "email": "Surajjangavali18@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "jumbojett/openid-connect-php": "^1.0",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "KeycloakSSO\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

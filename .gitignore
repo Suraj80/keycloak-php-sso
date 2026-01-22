@@ -1,0 +1,15 @@
+/vendor/
+.env
+composer.lock
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.cache
+**.md
+!README.md
+keycloak/
+docs/
+src/
+apps/
